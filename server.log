@@ -1,0 +1,21 @@
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+Server is running on http://localhost:3000
+Connected to the SQLite database.
+Database initialized successfully.
+Mock Email Sent (Credentials missing):
+To: rfghj@gmail.com
+Subject: Ticket Created: #36
+Body: Hi,
+
+Your ticket has been raised successfully with ID: 36.
+We will get back to you shortly.
+
+Issue: payment failed but amount got deducted
+Mock Email Sent (Credentials missing):
+To: emailarathirk@gmail.com
+Subject: New Ticket #36 from rfghj@gmail.com
+Body: A new ticket has been raised.
+
+User: rfghj@gmail.com
+Transaction ID: pay_dfgh
+Issue: payment failed but amount got deducted

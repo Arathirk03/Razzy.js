@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razzy - Razorpay Assistant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Using a simple icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="background-glob"></div>
+    <div class="background-glob glob-2"></div>
+
+    <div class="chat-container">
+        <header class="chat-header">
+            <div class="bot-info">
+                <div class="bot-avatar-img">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Razorpay_logo.svg"
+                        alt="Razorpay Logo">
+                </div>
+                <div class="bot-details">
+                    <h1>Razzy</h1>
+                    <span class="status-dot"></span> Online
+                </div>
+            </div>
+        </header>
+
+        <div class="chat-messages" id="chat-messages">
+            <div class="message bot-message">
+                <div class="message-content">
+                    Hello! I'm Razzy. How can I assist you with Razorpay today?
+                </div>
+                <div class="message-time">Just now</div>
+            </div>
+        </div>
+
+        <!-- Rating Modal -->
+        <div id="rating-container" class="rating-container hidden">
+            <p>How was your experience?</p>
+            <div class="stars">
+                <i class="fa-solid fa-star" data-value="1"></i>
+                <i class="fa-solid fa-star" data-value="2"></i>
+                <i class="fa-solid fa-star" data-value="3"></i>
+                <i class="fa-solid fa-star" data-value="4"></i>
+                <i class="fa-solid fa-star" data-value="5"></i>
+            </div>
+        </div>
+
+        <div class="chat-input-area">
+            <form id="chat-form">
+                <input type="text" id="user-input" placeholder="Type your message..." autocomplete="off">
+                <button type="submit" id="send-btn">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

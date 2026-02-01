@@ -1,0 +1,22 @@
+[
+    {
+        "topic": "Payment Failure",
+        "content": "If a payment is deducted but the status is failed, the amount is usually auto-refunded within 5-7 business days."
+    },
+    {
+        "topic": "Refunds",
+        "content": "Refunds can be initiated from the Razorpay Dashboard. Instant refunds are available for select payment methods."
+    },
+    {
+        "topic": "Payment Modes",
+        "content": "Razorpay supports Credit/Debit cards, UPI, Netbanking, Wallets, and EMI."
+    },
+    {
+        "topic": "Settlements",
+        "content": "Settlements usually take T+2 days to reach your bank account."
+    },
+    {
+         "topic": "International Payments",
+         "content": "International payments can be enabled from the settings menu in the dashboard. It requires PayPal integration or direct card support."
+    }
+]
