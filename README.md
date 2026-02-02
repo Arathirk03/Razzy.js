@@ -4,7 +4,7 @@ I used HTML, CSS, and plain JavaScript to build it.
 
 Main Features
 
-Only: The bot is programmed to only talk about things related to banking. If a user asks about something else, the bot will politely stay on topic.
+Pyment related things only: The bot is programmed to only talk about things related to banking. If a user asks about something else, the bot will politely stay on topic.
 Smart Memory: Once you give the bot your email or a transaction ID, it remembers it. It won't keep asking you for the same information over and over.
 Strict Rules for Input: The bot checks if you are typing things correctly. For example, a Transaction ID must start with pay_ or it won't let you continue. It also checks if your email address looks real.
 Ticket System: If the bot cannot fix the problem, it creates a support ticket. It gives the user a Ticket ID and sends an email to both the user and the Razorpay team with a summary of the chat.
